@@ -10,7 +10,7 @@ while count<4:
     try:
         entered_value = float(input(f"Enter {model_inputs[count]} \n"))
         if entered_value <= 0:
-            print("I1.2nvalid value")
+            print("Invalid value")
         else:
             inputs.append(entered_value)
             count+=1
